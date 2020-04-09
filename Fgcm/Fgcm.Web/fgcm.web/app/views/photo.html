@@ -1,0 +1,34 @@
+﻿<h1>
+    Photo
+</h1>
+<hr />
+<div ng-controller="photoController as vm" ng-init="vm.init()">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>AlbumId</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Url</th>
+                <th>ThumbnailUrl</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in vm.data" ng-click="vm.rowSelected(item)" style="cursor: pointer">
+                <td>{{item.albumId}}</td>
+                <td>{{item.id}}</td>
+                <td>{{item.title}}</td>
+                <td>
+                    {{item.url}}
+                    <br />
+                    <img src="{{item.url}}" style="width: 250px; height: 250px; border-radius: 5px" alt="{{item.url}}" />
+                </td>
+                <td>
+                    {{item.thumbnailUrl}}
+                    <br />
+                    <img src="{{item.thumbnailUrl}}" alt="{{item.thumbnailUrl}}" style="border-radius: 5px" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

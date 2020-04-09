@@ -1,0 +1,127 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Fgcm.Module/1.0.0": {
+        "dependencies": {
+          "Autofac": "5.1.2",
+          "Fgcm.IoC": "1.0.0"
+        },
+        "runtime": {
+          "Fgcm.Module.dll": {}
+        }
+      },
+      "Autofac/5.1.2": {
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Fgcm.ApplicationService/1.0.0": {
+        "dependencies": {
+          "Fgcm.Data": "1.0.0",
+          "Fgcm.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Fgcm.ApplicationService.dll": {}
+        }
+      },
+      "Fgcm.Common/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Fgcm.Common.dll": {}
+        }
+      },
+      "Fgcm.Data/1.0.0": {
+        "dependencies": {
+          "Fgcm.Common": "1.0.0",
+          "Fgcm.Domain": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Fgcm.Data.dll": {}
+        }
+      },
+      "Fgcm.Domain/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Fgcm.Domain.dll": {}
+        }
+      },
+      "Fgcm.IoC/1.0.0": {
+        "dependencies": {
+          "Autofac": "5.1.2",
+          "Fgcm.ApplicationService": "1.0.0",
+          "Fgcm.Data": "1.0.0"
+        },
+        "runtime": {
+          "Fgcm.IoC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fgcm.Module/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iGEx5Cm6Uor6/bZkgCHHjJO8cEQvDSOxgzNmHGJgGOnLDCe0b8NpOlhotsqx8dFvBDCsEX/V3YGRR30sRQLsxw==",
+      "path": "autofac/5.1.2",
+      "hashPath": "autofac.5.1.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Fgcm.ApplicationService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fgcm.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fgcm.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fgcm.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fgcm.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

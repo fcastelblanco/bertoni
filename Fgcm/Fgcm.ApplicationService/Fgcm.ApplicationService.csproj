@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>1.9.4.2020</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fgcm.Data\Fgcm.Data.csproj" />
+    <ProjectReference Include="..\Fgcm.Domain\Fgcm.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.IoC.deps.json
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.IoC.dll
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\obj\Debug\netstandard2.0\Fgcm.IoC.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\obj\Debug\netstandard2.0\Fgcm.IoC.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.IoC.pdb
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.ApplicationService.dll
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.Common.dll
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.Data.dll
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.Domain.dll
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.ApplicationService.pdb
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.Data.pdb
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.Common.pdb
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\bin\Debug\netstandard2.0\Fgcm.Domain.pdb
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\obj\Debug\netstandard2.0\Fgcm.IoC.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\obj\Debug\netstandard2.0\Fgcm.IoC.csproj.CopyComplete
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\obj\Debug\netstandard2.0\Fgcm.IoC.dll
+C:\Users\Asus\Desktop\Fgcm\Fgcm.IoC\obj\Debug\netstandard2.0\Fgcm.IoC.pdb

@@ -1,0 +1,252 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Autofac/5.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Fgcm.ApplicationService/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Fgcm.Data": "1.0.0",
+          "Fgcm.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fgcm.ApplicationService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fgcm.ApplicationService.dll": {}
+        }
+      },
+      "Fgcm.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Fgcm.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fgcm.Common.dll": {}
+        }
+      },
+      "Fgcm.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Fgcm.Common": "1.0.0",
+          "Fgcm.Domain": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Fgcm.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fgcm.Data.dll": {}
+        }
+      },
+      "Fgcm.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Fgcm.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fgcm.Domain.dll": {}
+        }
+      },
+      "Fgcm.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "5.1.2",
+          "Fgcm.ApplicationService": "1.0.0",
+          "Fgcm.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fgcm.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fgcm.IoC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/5.1.2": {
+      "sha512": "iGEx5Cm6Uor6/bZkgCHHjJO8cEQvDSOxgzNmHGJgGOnLDCe0b8NpOlhotsqx8dFvBDCsEX/V3YGRR30sRQLsxw==",
+      "type": "package",
+      "path": "autofac/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.5.1.2.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net461/Autofac.dll",
+        "lib/net461/Autofac.pdb",
+        "lib/net461/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Fgcm.ApplicationService/1.0.0": {
+      "type": "project",
+      "path": "../Fgcm.ApplicationService/Fgcm.ApplicationService.csproj",
+      "msbuildProject": "../Fgcm.ApplicationService/Fgcm.ApplicationService.csproj"
+    },
+    "Fgcm.Common/1.0.0": {
+      "type": "project",
+      "path": "../Fgcm.Common/Fgcm.Common.csproj",
+      "msbuildProject": "../Fgcm.Common/Fgcm.Common.csproj"
+    },
+    "Fgcm.Data/1.0.0": {
+      "type": "project",
+      "path": "../Fgcm.Data/Fgcm.Data.csproj",
+      "msbuildProject": "../Fgcm.Data/Fgcm.Data.csproj"
+    },
+    "Fgcm.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Fgcm.Domain/Fgcm.Domain.csproj",
+      "msbuildProject": "../Fgcm.Domain/Fgcm.Domain.csproj"
+    },
+    "Fgcm.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Fgcm.IoC/Fgcm.IoC.csproj",
+      "msbuildProject": "../Fgcm.IoC/Fgcm.IoC.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Autofac >= 5.1.2",
+      "Fgcm.IoC >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Fgcm\\Fgcm.Module\\Fgcm.Module.csproj",
+      "projectName": "Fgcm.Module",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\Fgcm\\Fgcm.Module\\Fgcm.Module.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\Fgcm\\Fgcm.Module\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Asus\\Desktop\\Fgcm\\Fgcm.IoC\\Fgcm.IoC.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Fgcm\\Fgcm.IoC\\Fgcm.IoC.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[5.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

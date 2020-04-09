@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "angular.js@1.7.9",
+      "destination": "fgcm.web/lib/angular.js/",
+      "files": [
+        "angular.min.js",
+        "angular.js"
+      ]
+    }
+  ,
+{
+  "library": "angular-route@1.7.9",
+  "destination": "fgcm.web/lib/angular-route/",
+  "files": [
+    "angular-route.min.js",
+    "angular-route.js"
+  ]
+}
+]
+}

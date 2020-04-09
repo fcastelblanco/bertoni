@@ -1,0 +1,22 @@
+﻿<h1>
+    Album
+</h1>
+<hr/>
+<div ng-controller="albumController as vm" ng-init="vm.init()">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>User</th>
+            <th>Id</th>
+            <th>Title</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in vm.data" ng-click="vm.rowSelected(item)" style="cursor: pointer">
+                <td>{{item.userId}}</td>
+                <td>{{item.id}}</td>
+                <td>{{item.title}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

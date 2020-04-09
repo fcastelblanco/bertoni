@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>1.9.4.2020</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="fgcm.web\css\site.css" />
+    <Content Include="fgcm.web\favicon.ico" />
+    <Content Include="fgcm.web\js\site.js" />
+    <Content Include="fgcm.web\lib\angular.js\angular.js" />
+    <Content Include="fgcm.web\lib\angular.js\angular.min.js" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="fgcm.web\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Include="fgcm.web\lib\bootstrap\LICENSE" />
+    <Content Include="fgcm.web\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="fgcm.web\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="fgcm.web\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="fgcm.web\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="fgcm.web\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="fgcm.web\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="fgcm.web\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="fgcm.web\lib\jquery-validation\LICENSE.md" />
+    <Content Include="fgcm.web\lib\jquery\dist\jquery.js" />
+    <Content Include="fgcm.web\lib\jquery\dist\jquery.min.js" />
+    <Content Include="fgcm.web\lib\jquery\dist\jquery.min.map" />
+    <Content Include="fgcm.web\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.0.96" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fgcm.IoC\Fgcm.IoC.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
